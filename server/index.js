@@ -17,9 +17,9 @@ app.use(cors());
 app.use('/posts', postRoutes);
 app.use('/user', userRoutes);
 
-app.get('/', (req, res) => {
-     res.send('Hello to my Forum');
-});
+//app.get('/', (req, res) => {
+//     res.send('Hello to my Forum');
+//});
 
 const PORT = process.env.PORT || 5000 ;
 
